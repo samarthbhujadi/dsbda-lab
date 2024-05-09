@@ -1,0 +1,17 @@
+step 1  to put file in directory
+commands are :
+pwd
+ls
+hadoop fs -put Desktop/Process.txt Process.txt
+hadoop fs -ls
+
+
+
+
+step 2 to run final step
+for this first do the step of java jar file and save it in the cludera folder only using Process.jar
+
+commands are:
+
+hadoop jar Process.jar Process.Process Process.txt dir16       (explanation: hadoop jar filename.jar packagename.classname inputfile.txt dir16)
+hadoop fs -cat dir16/part-r-00000                              (explanation: hadoop fs    cat(showa content of file) dir16/part-r-00000(bydefault the output is shown in this file)   jar files means (java archive files)
